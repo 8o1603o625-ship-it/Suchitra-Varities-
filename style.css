@@ -374,3 +374,31 @@ color:white;
 background:gold;
 color:black;
 }
+.payment{
+padding:60px 20px;
+text-align:center;
+background:#111;
+}
+
+.payment h2{
+color:gold;
+margin-bottom:20px;
+}
+
+.payment ul{
+list-style:none;
+padding:0;
+}
+
+.payment li{
+margin:10px 0;
+font-size:20px;
+}
+
+.qr{
+width:220px;
+margin-top:20px;
+border-radius:10px;
+background:white;
+padding:10px;
+}
