@@ -225,3 +225,31 @@ transition:.3s;
     color:gold;
     margin-bottom:10px;
 }
+.reviews{
+padding:60px 20px;
+text-align:center;
+}
+
+.review-box{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.review{
+width:300px;
+background:#1a1a1a;
+border:2px solid gold;
+border-radius:15px;
+padding:20px;
+}
+
+.review h3{
+color:gold;
+margin-bottom:10px;
+}
+
+.review p{
+margin-bottom:10px;
+}
