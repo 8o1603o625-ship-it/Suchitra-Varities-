@@ -444,3 +444,47 @@ cursor:pointer;
 background:gold;
 color:black;
 }
+.hero{
+min-height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0F172A,#111827,#1E293B);
+padding:30px;
+}
+
+.hero-content h1{
+font-size:55px;
+color:#10B981;
+margin-bottom:15px;
+}
+
+.hero-content p{
+font-size:22px;
+color:#ddd;
+margin-bottom:30px;
+}
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-bottom:25px;
+}
+
+.badges{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.badges span{
+background:#1E293B;
+padding:10px 18px;
+border-radius:30px;
+border:1px solid #10B981;
+color:white;
+}
