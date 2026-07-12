@@ -165,3 +165,44 @@ margin-bottom:10px;
 .card p{
 color:white;
 }
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+color:white;
+box-shadow:0 0 15px #25D366;
+z-index:999;
+}
+
+.call{
+position:fixed;
+bottom:95px;
+right:20px;
+width:60px;
+height:60px;
+background:#d40000;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+color:white;
+box-shadow:0 0 15px red;
+z-index:999;
+}
+
+.whatsapp:hover,
+.call:hover{
+transform:scale(1.1);
+transition:.3s;
+}
