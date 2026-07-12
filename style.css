@@ -338,3 +338,19 @@ box-shadow:0 0 15px gold;
 background:#c40000;
 color:white;
 }
+.search-section{
+text-align:center;
+padding:30px 20px;
+}
+
+#searchInput{
+width:90%;
+max-width:500px;
+padding:15px;
+font-size:18px;
+border:2px solid gold;
+border-radius:30px;
+outline:none;
+background:#1a1a1a;
+color:white;
+}
