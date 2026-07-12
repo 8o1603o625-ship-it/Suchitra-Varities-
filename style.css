@@ -317,3 +317,24 @@ margin-top:20px;
 font-size:15px;
 color:#ccc;
 }
+#topBtn{
+display:none;
+position:fixed;
+bottom:20px;
+left:20px;
+z-index:999;
+border:none;
+outline:none;
+background:gold;
+color:black;
+cursor:pointer;
+padding:15px 18px;
+border-radius:50%;
+font-size:22px;
+box-shadow:0 0 15px gold;
+}
+
+#topBtn:hover{
+background:#c40000;
+color:white;
+}
