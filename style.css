@@ -206,3 +206,22 @@ z-index:999;
 transform:scale(1.1);
 transition:.3s;
 }
+.offer{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.offer-box{
+    max-width:700px;
+    margin:auto;
+    background:linear-gradient(90deg,#7a0000,#b8860b,#7a0000);
+    padding:25px;
+    border-radius:15px;
+    color:white;
+}
+
+.offer-box h3{
+    font-size:28px;
+    color:gold;
+    margin-bottom:10px;
+}
